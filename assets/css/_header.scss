@@ -3,8 +3,10 @@
 .first_section_header {
     width: 100%;
     display: flex;
+    box-sizing: border-box;
     align-items: baseline;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 0 10%;
     background-color: $darkBackground;
 }
 
@@ -66,11 +68,57 @@
 .first_section_header_button_text {
     color: $white;
     font-family: Epilogue, Arial, Helvetica, sans-serif;
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-weight: 900;
     font-size: 14px;
     &:hover {
         border-bottom: 2px solid $button-hover;
     }
+}
 
+.first_section_body {
+    display: flex;
+    justify-content: center;
+    background-color: $darkBackground;
+    padding: 5% 10%;
+}
+
+.first_section_body_left {
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 40px;
+}
+
+.first_section_body_right {
+    display: flex;
+    flex: 1;
+}
+
+.first_section_body_h5 {
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 32px;
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-family: Epilogue, Arial, Helvetica, sans-serif;
+    color: $TextLightAccent;
+}
+
+.first_section_body_h1_container {
+    width: 513px;
+    height: 240px;   
+    font-family: Epilogue, Arial, Helvetica, sans-serif;
+    color: $white;
+}
+
+.first_section_body_h1 {
+    margin: 0;   
+    padding: 0;
+    line-height: 80px;
+    font-weight: 800;    
+    font-size: 72px;
+    letter-spacing: -2px;  
+    justify-self: stretch;  
 }
