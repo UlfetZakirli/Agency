@@ -163,6 +163,26 @@
   padding-bottom: 18px;
   padding-top: 34px;
 }
+#agancy-experience .experience-info {
+  display: flex;
+  font-family: "Epilogue";
+  color: #391400;
+  padding: 40px 0 40px 0;
+}
+#agancy-experience .experience-info .experience-item {
+  padding: 45px;
+  border: 1px solid #F3D1BF;
+}
+#agancy-experience .experience-info .experience-item h3 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+}
+#agancy-experience .experience-info .experience-item p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
 
 .col-lg-1 {
   flex: 0 0 auto;

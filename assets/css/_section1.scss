@@ -51,4 +51,28 @@
             }
         }
     }
+    .experience-info {
+        display: flex;
+        font-family: $fontFamily;
+        color: $maincolor;
+        @include padding-t-r-b-l(40px,0,40px,0);
+
+        .experience-item {
+            padding: 45px;
+            border: 1px solid $customerbottom;
+
+            h3 {
+                font-weight: 800;
+                font-size: 40px;
+                line-height: 48px;
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 32px;
+            }
+        }
+
+    }
 }
