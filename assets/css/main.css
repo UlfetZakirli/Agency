@@ -473,6 +473,24 @@
   color: rgba(255, 255, 255, 0.64);
   padding-top: 3px;
 }
+#teams .team-control-btn {
+  display: flex;
+  justify-content: center;
+}
+#teams .team-control-btn ul {
+  list-style-type: none;
+  display: flex;
+}
+#teams .team-control-btn ul li {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid #4E4F6E;
+  margin: 0 10px;
+}
+#teams .team-control-btn ul .active-li {
+  background-color: #EF6D58;
+}
 
 * {
   padding: 0;
