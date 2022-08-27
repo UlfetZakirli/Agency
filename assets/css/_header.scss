@@ -3,6 +3,7 @@
 .first_section_header {
     width: 100%;
     display: flex;
+    align-items: baseline;
     justify-content: space-evenly;
     background-color: $darkBackground;
 }
@@ -32,4 +33,44 @@
     line-height: 32px;
     font-size: 24px;
     color: $white;
+}
+
+.first_section_navigation {
+    width: 515px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first_section_navigation_link {
+    text-decoration: none;
+    font-family: Epilogue, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 32px;
+    font-size: 16px;
+    color: $white;
+}
+
+.first_section_header_button {
+    height: 48px;
+    width: 138px;
+    box-sizing: border-box;
+    border: 1px solid $button-border;
+    border-radius: 6px;  
+    background-color: transparent;  
+    &:hover {
+        border: 2px solid $button-hover;
+    }     
+}
+
+.first_section_header_button_text {
+    color: $white;
+    font-family: Epilogue, Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 14px;
+    &:hover {
+        border-bottom: 2px solid $button-hover;
+    }
+
 }
