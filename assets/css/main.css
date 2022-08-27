@@ -116,6 +116,45 @@
   color: #391400;
 }
 
+.section-heading-maincolor {
+  font-family: "Epilogue";
+}
+.section-heading-maincolor .section-heading-span {
+  font-size: 16px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #EF6D58;
+  line-height: 32px;
+}
+.section-heading-maincolor .section-heading-h2 {
+  font-size: 56px;
+  letter-spacing: -1px;
+  font-weight: 800;
+  line-height: 64px;
+  color: #391400;
+  padding-bottom: 20px;
+  padding-top: 26px;
+}
+
+.section-heading-whitecolor {
+  font-family: "Epilogue";
+}
+.section-heading-whitecolor .section-heading-span {
+  font-size: 16px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #EF6D58;
+  line-height: 32px;
+}
+.section-heading-whitecolor .section-heading-h2 {
+  font-size: 56px;
+  letter-spacing: -1px;
+  font-weight: 800;
+  line-height: 64px;
+  color: #FFFFFF;
+  padding-top: 26px;
+}
+
 .customers-item {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
@@ -133,22 +172,6 @@
 }
 #agancy-experience .experience-iem .experiance-desc {
   padding: 0 0 0 120px;
-}
-#agancy-experience .experience-iem .experiance-desc .section-heading-span {
-  font-size: 16px;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  color: #EF6D58;
-  line-height: 32px;
-}
-#agancy-experience .experience-iem .experiance-desc .section-heading-h2 {
-  font-size: 56px;
-  letter-spacing: -1px;
-  font-weight: 800;
-  line-height: 64px;
-  color: #391400;
-  padding-bottom: 20px;
-  padding-top: 26px;
 }
 #agancy-experience .experience-iem .experiance-desc .section-first-p {
   font-weight: 400;
@@ -392,6 +415,41 @@
   font-size: 14px;
   line-height: 25px;
   color: rgba(57, 20, 0, 0.64);
+}
+
+#teams {
+  background-color: #28293E;
+  padding: 80px 0;
+}
+#teams .teams-heading {
+  display: flex;
+  align-items: end;
+}
+#teams .teams-heading .control-btn-top {
+  display: flex;
+  justify-content: right;
+}
+#teams .teams-heading .control-btn-top span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+  margin: 0 8px;
+}
+#teams .team-members {
+  display: flex;
+}
+#teams .team-members .member-item .member-img {
+  width: 270px;
+  height: 272px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  border: 1px solid #3A3C56;
+  border-radius: 6px;
 }
 
 * {
