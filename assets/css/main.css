@@ -420,6 +420,7 @@
 #teams {
   background-color: #28293E;
   padding: 80px 0;
+  font-family: "Epilogue";
 }
 #teams .teams-heading {
   display: flex;
@@ -441,15 +442,36 @@
 }
 #teams .team-members {
   display: flex;
+  padding-top: 64px;
+}
+#teams .team-members .member-item {
+  padding: 0 6px;
 }
 #teams .team-members .member-item .member-img {
-  width: 270px;
   height: 272px;
   display: flex;
   justify-content: center;
   align-items: end;
   border: 1px solid #3A3C56;
   border-radius: 6px;
+}
+#teams .team-members .member-item .black-man img {
+  width: 100%;
+}
+#teams .team-members .member-item .member-info {
+  padding: 26px 0;
+}
+#teams .team-members .member-item .member-info h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+#teams .team-members .member-item .member-info p {
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.64);
+  padding-top: 3px;
 }
 
 * {

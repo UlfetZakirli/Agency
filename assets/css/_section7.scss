@@ -1,6 +1,7 @@
 #teams {
     background-color: $darkBackground;
     padding: 80px 0;
+    font-family: $fontFamily;
 
     .teams-heading {
         display: flex;
@@ -26,10 +27,12 @@
 
     .team-members {
         display: flex;
+        padding-top: 64px;
 
         .member-item {
+            padding: 0 6px;
+
             .member-img {
-                width: 270px;
                 height: 272px;
                 display: flex;
                 justify-content: center;
@@ -37,6 +40,31 @@
                 border: 1px solid $teamborder;
                 border-radius: 6px;
             }
+
+            .black-man {
+                img {
+                    width: 100%;
+                }
+            }
+
+            .member-info {
+                padding: 26px 0;
+
+                h4 {
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: $ln-height-sm;
+                    color: $whitecolor;
+                }
+
+                p {
+                    font-size: 16px;
+                    line-height: $ln-height-sm;
+                    color: $TextLightGray;
+                    padding-top: 3px;
+                }
+            }
+
         }
     }
 }
