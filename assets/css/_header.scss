@@ -91,14 +91,9 @@
     flex-direction: column;
     background-image: url(./svg/Star.svg);
     background-repeat: no-repeat;
-    background-position: 52% 9%;
+    background-position: 58.3% 10%;
     padding-left: 10%;
     margin-bottom: 5%;
-}
-
-.first_section_body_right {
-    display: flex;
-    flex: 1;
 }
 
 .first_section_body_h5 {
@@ -213,4 +208,42 @@
     font-size: 16px;
     font-weight: 400;
     font-family: Epilogue, Arial, Helvetica, sans-serif;
+}
+
+.first_section_body_right {
+    height: 100%;
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-right: 10%;
+    margin-bottom: 5%;
+}
+
+.first_section_body_top_right_row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 3%;
+}
+
+.top_right_row_purple_cirle {
+    width: 246px;
+    height: 246px;
+    background-color: $button-hover;
+    border-radius: 50%;
+}
+
+.top_right_row_orange_cirle {
+    width: 112px;
+    height: 112px;
+    margin-bottom: 5%;
+    background-color: $TextLightAccent;
+    border-radius: 50%;
+}
+
+.top_right_row_cloud_shape {
+    width: 112px;
+    height: 82px;
 }
