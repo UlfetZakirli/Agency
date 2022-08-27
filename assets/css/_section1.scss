@@ -1,0 +1,8 @@
+.customers-item {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 72px 0;
+    border-bottom: 1px solid $customerbottom;
+}

@@ -1,4 +1,13 @@
 $fontFamily:'Epilogue';
+$whitecolor:#FFFFFF;
+$customerbottom: #F3D1BF;
+$TextLightAccent: #EF6D58;
+$maincolor: #391400;
+$desccolor: rgba(57, 20, 0, 0.64);;
+
+$ln-height-sm:32px;
+$ln-height-lg:64px;
+
 
 //local library
 .col-lg-1 {
@@ -97,9 +106,15 @@ $fontFamily:'Epilogue';
 
 .container,
 .container-fluid {
-  width: 81.9%;
+  width: 80.9%;
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
+}
+
+
+
+@mixin padding-t-r-b-l($top,$right,$bottom,$left) {
+    padding: $top $right $bottom $left;
 }

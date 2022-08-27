@@ -89,11 +89,20 @@
 }
 .container,
 .container-fluid {
-  width: 81.9%;
+  width: 80.9%;
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
+}
+
+.customers-item {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 72px 0;
+  border-bottom: 1px solid #F3D1BF;
 }
 
 .col-lg-1 {
@@ -187,7 +196,7 @@
 }
 .container,
 .container-fluid {
-  width: 81.9%;
+  width: 80.9%;
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
