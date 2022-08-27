@@ -183,6 +183,12 @@
   font-size: 20px;
   line-height: 32px;
 }
+#agancy-experience .experience-info .border-top-bottom-left-radius {
+  border-radius: 6px 0px 0px 6px;
+}
+#agancy-experience .experience-info .border-top-bottom-right-radius {
+  border-radius: 0px 6px 6px 0px;
+}
 
 .col-lg-1 {
   flex: 0 0 auto;

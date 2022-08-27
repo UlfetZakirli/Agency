@@ -60,7 +60,6 @@
         .experience-item {
             padding: 45px;
             border: 1px solid $customerbottom;
-
             h3 {
                 font-weight: 800;
                 font-size: 40px;
@@ -72,6 +71,12 @@
                 font-size: 20px;
                 line-height: 32px;
             }
+        }
+        .border-top-bottom-left-radius{
+            border-radius: 6px 0px 0px 6px;
+        }
+        .border-top-bottom-right-radius{
+            border-radius: 0px 6px 6px 0px;
         }
 
     }
