@@ -6,3 +6,49 @@
     padding: 72px 0;
     border-bottom: 1px solid $customerbottom;
 }
+
+#agancy-experience {
+    .experience-iem {
+        display: flex;
+        align-items: center;
+        font-family: $fontFamily;
+        @include padding-t-r-b-l(100px, 0, 120px, 0);
+
+        .experiance-desc {
+            @include padding-t-r-b-l(0, 0, 0, 120px);
+
+            .section-heading-span {
+                font-size: 16px;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                color: $TextLightAccent;
+                line-height: $ln-height-sm;
+            }
+
+            .section-heading-h2 {
+                font-size: 56px;
+                letter-spacing: -1px;
+                font-weight: 800;
+                line-height: $ln-height-lg;
+                color: $maincolor;
+                padding-bottom: 20px;
+                padding-top: 26px;
+            }
+
+            .section-first-p {
+                font-weight: 400;
+                font-size: 20px;
+                line-height: $ln-height-sm;
+                color: $maincolor;
+            }
+
+            .section-second-p {
+                font-size: 16px;
+                line-height: $ln-height-sm;
+                color: $desccolor;
+                padding-bottom: 18px;
+                padding-top: 34px;
+            }
+        }
+    }
+}

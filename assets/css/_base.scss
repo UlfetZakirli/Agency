@@ -116,5 +116,11 @@ $ln-height-lg:64px;
 
 
 @mixin padding-t-r-b-l($top,$right,$bottom,$left) {
-    padding: $top $right $bottom $left;
+  padding: $top $right $bottom $left;
+}
+
+@mixin btn-mix($width, $heigth, $radius) {
+width: $width;
+height: $heigth;
+border-radius: $radius;
 }

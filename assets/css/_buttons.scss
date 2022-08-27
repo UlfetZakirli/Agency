@@ -1,0 +1,17 @@
+.btn {
+    @include btn-mix(138px, 48px, 6px);
+    box-shadow: 0px 3px 9px 0px #39140014;
+    font-family: $fontFamily;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+}
+
+.btn-white {
+    background-color: $whitecolor;
+    color: $maincolor;
+}
