@@ -1,4 +1,15 @@
 @import "_base";
 @import "_header";
 @import "_section1";
+@import "_section2";
 @import "_footer";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fdf0e9;
+    
+}
