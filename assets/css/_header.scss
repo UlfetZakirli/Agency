@@ -1,0 +1,35 @@
+@import "./_base";
+
+.first_section_header {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: $darkBackground;
+}
+
+.first_section_logo {
+    width: 152px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.first_section_logo_container {
+    width: 50px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./svg/poligon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first_section_logo_label {
+    font-family: Epilogue, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 32px;
+    font-size: 24px;
+    color: $white;
+}
