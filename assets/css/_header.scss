@@ -177,7 +177,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 10%;
+    position: relative;
+    top: 30vh;
 }
 
 .first_section_footer_image {
@@ -218,6 +219,10 @@
     flex-direction: column;
     padding-right: 10%;
     margin-bottom: 5%;
+    background-image: url(./svg/Oval.svg);
+    background-repeat: no-repeat;
+    background-position: 15% 30%;
+    background-size: 450px;
 }
 
 .first_section_body_top_right_row {
@@ -241,9 +246,109 @@
     margin-bottom: 5%;
     background-color: $TextLightAccent;
     border-radius: 50%;
+    background-image: url(./svg/threestars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    right: 10%;
 }
 
 .top_right_row_cloud_shape {
     width: 112px;
     height: 82px;
+    position: relative;
+    right: 20%;
+}
+
+.first_section_body_second_right_row {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.second_right_row_purple_square {
+    width: 246px;
+    height: 182px;
+    background-color: $button-hover;
+    position: relative;
+    bottom: 135px;
+}
+
+.laptop_image {
+    width: 245px;
+    height: 255px;
+    position: relative;
+    left: 10.5%;
+    bottom: 45%;
+}
+
+.second_right_row_yellow_circle {
+    width: 246px;
+    height: 246px;
+    border-radius: 50%;
+    background-color: $yellow;
+    position: relative;
+    right: 25%;
+}
+
+.first_section_body_third_right_row {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.third_right_row_yellow_square {
+    width: 246px;
+    height: 220px;
+    background-color: $yellow;
+    position: relative;
+    left: 42.5%;
+    bottom: 115px;
+}
+
+.girl_smile {
+    width: 246px;
+    height: 269px;
+    position: relative;
+    bottom: 45px;
+}
+
+.first_section_body_last_right_row {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.last_right_row_container {
+    display: flex;
+    width: 214px;
+    height: 112px;
+    background-color: $white;
+    border-radius: 6px;
+    padding-top: 10px;
+    position: relative;
+    bottom: 12vh;
+}
+
+.last_right_row_container_left {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: $TextLightAccent;
+    justify-self: center;
+    margin: 15px;
+}
+
+.last_right_row_container_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.curvy_arrow {
+    width: 152px;
+    height: 120px;
 }
