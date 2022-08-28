@@ -155,6 +155,24 @@
   padding-top: 26px;
 }
 
+.team-founder .section-heading-whitecolor {
+  font-family: "Epilogue";
+}
+.team-founder .section-heading-whitecolor .section-heading-span {
+  font-size: 16px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #EF6D58;
+  line-height: 32px;
+}
+.team-founder .section-heading-whitecolor .section-heading-h3 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  color: #FFFFFF;
+  padding-top: 26px;
+}
+
 .customers-item {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
@@ -490,6 +508,41 @@
 }
 #teams .team-control-btn ul .active-li {
   background-color: #EF6D58;
+}
+#teams .team-founder {
+  padding-top: 140px;
+  display: flex;
+  align-items: center;
+}
+#teams .team-founder .founder-img img {
+  width: 100%;
+}
+#teams .team-founder .founder-note {
+  padding-left: 50px;
+  position: relative;
+}
+#teams .team-founder .founder-note .section-heading-whitecolor {
+  position: relative;
+  z-index: 2;
+  padding-bottom: 44px;
+}
+#teams .team-founder .founder-note .shape {
+  position: absolute;
+  right: 70px;
+  top: 0;
+  z-index: 1;
+}
+#teams .team-founder .founder-note .founder-info p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #FFFFFF;
+  padding-bottom: 6px;
+}
+#teams .team-founder .founder-note .founder-info span {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.64);
 }
 
 * {

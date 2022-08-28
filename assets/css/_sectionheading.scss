@@ -1,5 +1,6 @@
-.section-heading-maincolor{
+.section-heading-maincolor {
     font-family: $fontFamily;
+
     .section-heading-span {
         font-size: 16px;
         letter-spacing: 3px;
@@ -7,7 +8,7 @@
         color: $TextLightAccent;
         line-height: $ln-height-sm;
     }
-    
+
     .section-heading-h2 {
         font-size: 56px;
         letter-spacing: -1px;
@@ -19,8 +20,9 @@
     }
 }
 
-.section-heading-whitecolor{
+.section-heading-whitecolor {
     font-family: $fontFamily;
+
     .section-heading-span {
         font-size: 16px;
         letter-spacing: 3px;
@@ -28,7 +30,7 @@
         color: $TextLightAccent;
         line-height: $ln-height-sm;
     }
-    
+
     .section-heading-h2 {
         font-size: 56px;
         letter-spacing: -1px;
@@ -39,3 +41,24 @@
     }
 }
 
+.team-founder {
+    .section-heading-whitecolor {
+        font-family: $fontFamily;
+
+        .section-heading-span {
+            font-size: 16px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: $TextLightAccent;
+            line-height: $ln-height-sm;
+        }
+
+        .section-heading-h3 {
+            font-size: 40px;
+            font-weight: 800;
+            line-height: 48px;
+            color: $whitecolor;
+            padding-top: 26px;
+        }
+    }
+}
