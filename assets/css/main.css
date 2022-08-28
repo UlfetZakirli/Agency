@@ -829,6 +829,11 @@
   display: flex;
   justify-content: center;
 }
+@media (max-width: 992px) {
+  #contact-info .contact-info-item {
+    display: block;
+  }
+}
 #contact-info .contact-info-item .contact-item {
   padding: 34px;
   border: 1px solid #F3D1BF;

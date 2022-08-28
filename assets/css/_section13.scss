@@ -65,6 +65,9 @@
     .contact-info-item {
         display: flex;
         justify-content: center;
+        @media (max-width:992px) {
+            display: block;
+        }
         .contact-item {
 
             padding: 34px;
