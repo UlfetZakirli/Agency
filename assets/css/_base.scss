@@ -108,6 +108,13 @@ $ln-height-lg: 64px;
   }
 }
 
+
+@media (min-width: 576px) and (max-width:992px) {
+  .col-sm-12{
+      width: 100% !important;
+  }
+}
+
 .container,
 .container-fluid {
   width: 80.9%;
