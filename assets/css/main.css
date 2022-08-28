@@ -545,6 +545,10 @@
   color: rgba(255, 255, 255, 0.64);
 }
 
+#pricing {
+  padding: 100px 0 100px 0;
+}
+
 * {
   padding: 0;
   margin: 0;
