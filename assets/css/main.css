@@ -170,6 +170,12 @@
   color: #FFFFFF;
   padding-top: 26px;
 }
+@media (max-width: 992px) {
+  .section-heading-whitecolor .section-heading-h2 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
 
 .team-founder .section-heading-whitecolor {
   font-family: "Epilogue";
@@ -187,6 +193,12 @@
   line-height: 48px;
   color: #FFFFFF;
   padding-top: 26px;
+}
+@media (max-width: 992px) {
+  .team-founder .section-heading-whitecolor .section-heading-h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
 }
 
 .customers-item {
@@ -514,6 +526,7 @@
   background-color: #28293E;
   padding: 80px 0;
   font-family: "Epilogue";
+  overflow: hidden;
 }
 #teams .teams-heading {
   display: flex;
@@ -522,6 +535,11 @@
 #teams .teams-heading .control-btn-top {
   display: flex;
   justify-content: right;
+}
+@media (max-width: 992px) {
+  #teams .teams-heading .control-btn-top {
+    display: none;
+  }
 }
 #teams .teams-heading .control-btn-top span {
   display: flex;
@@ -538,6 +556,7 @@
   padding-top: 64px;
 }
 #teams .team-members .member-item {
+  width: 324.688px;
   padding: 0 6px;
 }
 #teams .team-members .member-item .member-img {
@@ -548,8 +567,9 @@
   border: 1px solid #3A3C56;
   border-radius: 6px;
 }
-#teams .team-members .member-item .black-man img {
-  width: 100%;
+#teams .team-members .member-item .member-img img {
+  width: 259px;
+  height: 231px;
 }
 #teams .team-members .member-item .member-info {
   padding: 26px 0;
@@ -589,6 +609,16 @@
   display: flex;
   align-items: center;
 }
+@media (max-width: 992px) {
+  #teams .team-founder {
+    display: block;
+  }
+}
+@media (max-width: 992px) {
+  #teams .team-founder .founder-img {
+    padding-bottom: 50px;
+  }
+}
 #teams .team-founder .founder-img img {
   width: 100%;
 }
@@ -596,16 +626,31 @@
   padding-left: 50px;
   position: relative;
 }
+@media (max-width: 992px) {
+  #teams .team-founder .founder-note {
+    padding-left: 0;
+  }
+}
 #teams .team-founder .founder-note .section-heading-whitecolor {
   position: relative;
   z-index: 2;
   padding-bottom: 44px;
+}
+@media (max-width: 992px) {
+  #teams .team-founder .founder-note .section-heading-whitecolor {
+    padding-bottom: 23px;
+  }
 }
 #teams .team-founder .founder-note .shape {
   position: absolute;
   right: 70px;
   top: 0;
   z-index: 1;
+}
+@media (max-width: 992px) {
+  #teams .team-founder .founder-note .shape {
+    right: 0%;
+  }
 }
 #teams .team-founder .founder-note .founder-info p {
   font-size: 20px;

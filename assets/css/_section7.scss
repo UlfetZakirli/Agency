@@ -2,6 +2,7 @@
     background-color: $darkBackground;
     padding: 80px 0;
     font-family: $fontFamily;
+    overflow: hidden;
 
     .teams-heading {
         display: flex;
@@ -11,6 +12,10 @@
         .control-btn-top {
             display: flex;
             justify-content: right;
+
+            @media (max-width: 992px) {
+                display: none;
+            }
 
             span {
                 display: flex;
@@ -30,6 +35,7 @@
         padding-top: 64px;
 
         .member-item {
+            width: 324.688px;
             padding: 0 6px;
 
             .member-img {
@@ -39,11 +45,10 @@
                 align-items: end;
                 border: 1px solid $teamborder;
                 border-radius: 6px;
-            }
 
-            .black-man {
                 img {
-                    width: 100%;
+                    width: 259px;
+                    height: 231px;
                 }
             }
 
@@ -94,8 +99,14 @@
         padding-top: 140px;
         display: flex;
         align-items: center;
+        @media (max-width:992px) {
+            display: block;
+        }
 
         .founder-img {
+            @media (max-width:992px) {
+                padding-bottom: 50px;
+            }
             img {
                 width: 100%;
             }
@@ -104,11 +115,19 @@
         .founder-note {
             padding-left: 50px;
             position: relative;
+            @media (max-width:992px) {
+                padding-left: 0;
+            }
 
             .section-heading-whitecolor {
                 position: relative;
                 z-index: 2;
                 padding-bottom: 44px;
+
+                @media (max-width:992px) {
+                    padding-bottom: 23px;
+                }
+                
             }
 
             .shape {
@@ -116,6 +135,9 @@
                 right: 70px;
                 top: 0;
                 z-index: 1;
+                @media (max-width:992px) {
+                    right: 0%;
+                }
             }
 
             .founder-info {
