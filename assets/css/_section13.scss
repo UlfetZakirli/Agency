@@ -1,14 +1,19 @@
 #contact-form {
-    height: 720px;
-    padding: 128px 0;
-    background-image: url(../svg/map.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
     font-family: $fontFamily;
+    position: relative;
+    @media (max-width:992px) {
+        position: static;
+    }
 
-    .contact-map {
-        display: flex;
-        position: relative;
+    .contact-form {
+        position: absolute;
+        top: 20%;
+        left: 15%;
+        @media (max-width:992px) {
+            position: static;
+            margin-bottom: 64px;
+        }
+        
 
         .from-contact {
             padding: 48px;
@@ -49,12 +54,9 @@
                 margin-top: 24px;
             }
         }
-
-        .location-pin {
-            position: absolute;
-            bottom: 160px;
-            right: 200px;
-        }
+    }
+    .contact-map{
+        height: 720px;
     }
 }
 
