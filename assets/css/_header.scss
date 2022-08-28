@@ -14,10 +14,16 @@
         flex-direction: column-reverse;
     }
 
-    .first_section_body_right {        
-        background-size: 70% !important;
-        background-position: 50% 20% !important;
-    }  
+    .first_section_body_top_right_row {
+        justify-content: center !important;
+        column-gap: 10% !important;
+    }
+
+    .first_section_body_second_right_row {
+        justify-content: center !important;
+        column-gap: 10% !important;
+        width: 150% !important;
+    }
 }
 
 .first_section_header {
@@ -244,7 +250,6 @@
 }
 
 .first_section_body_right {
-    height: 100%;
     display: flex;
     flex: 1;
     align-items: flex-start;
@@ -253,8 +258,8 @@
     margin-bottom: 5%;
     background-image: url(./svg/Oval.svg);
     background-repeat: no-repeat;
-    background-position: 15% 30%;
-    background-size: 450px;
+    background-position: center;
+    background-size: contain;
 }
 
 .first_section_body_top_right_row {
