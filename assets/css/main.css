@@ -674,6 +674,11 @@
   justify-content: center;
   align-items: end;
 }
+@media (max-width: 992px) {
+  #pricing .pricing-item {
+    display: block;
+  }
+}
 #pricing .pricing-item .pricing-box {
   padding: 35px;
   border: 1px solid #F3D1BF;
@@ -734,9 +739,28 @@
   border-right-width: 0;
   border-radius: 6px 0px 0px 6px;
 }
+@media (max-width: 992px) {
+  #pricing .pricing-item .border-top-bottom-left-radius {
+    border-right-width: 1px;
+    border-radius: 6px 6px 0px 0px;
+  }
+}
 #pricing .pricing-item .border-top-bottom-right-radius {
   border-left-width: 0;
   border-radius: 0px 6px 6px 0px;
+}
+@media (max-width: 992px) {
+  #pricing .pricing-item .border-top-bottom-right-radius {
+    border-left-width: 1px;
+    border-radius: 0px 0px 6px 6px;
+  }
+}
+@media (max-width: 992px) {
+  #pricing .pricing-item .border-radius-zero {
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-radius: 0px;
+  }
 }
 
 #contact-form {
