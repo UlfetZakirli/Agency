@@ -9,7 +9,15 @@
     .mobile_menu {
         display: flex !important;
     }
-  
+
+    .first_section_body {
+        flex-direction: column-reverse;
+    }
+
+    .first_section_body_right {        
+        background-size: 70% !important;
+        background-position: 50% 20% !important;
+    }  
 }
 
 .first_section_header {
@@ -302,7 +310,7 @@
     height: 182px;
     background-color: $button-hover;
     position: relative;
-    bottom: 135px;
+    bottom: 129px;
 }
 
 .laptop_image {
