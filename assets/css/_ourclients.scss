@@ -1,5 +1,11 @@
 @import "./_base";
 
+@media (max-width: 480px) {
+    .our_clients_say_body_container {
+        width: 50%;
+    }    
+}
+
 .our_clients_say_header {
     width: 100%;
     display: flex;
