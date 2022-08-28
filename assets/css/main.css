@@ -616,9 +616,11 @@
   background-color: #EF6D58;
 }
 #pricing .pricing-item .border-top-bottom-left-radius {
+  border-right-width: 0;
   border-radius: 6px 0px 0px 6px;
 }
 #pricing .pricing-item .border-top-bottom-right-radius {
+  border-left-width: 0;
   border-radius: 0px 6px 6px 0px;
 }
 
