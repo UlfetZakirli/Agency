@@ -1,0 +1,106 @@
+#contact-form {
+    font-family: $fontFamily;
+    position: relative;
+    @media (max-width:992px) {
+        position: static;
+    }
+
+    .contact-form {
+        position: absolute;
+        top: 20%;
+        left: 15%;
+        @media (max-width:992px) {
+            position: static;
+            margin-bottom: 64px;
+        }
+        
+
+        .from-contact {
+            padding: 48px;
+            background-color: $whitecolor;
+            border-radius: 6px;
+
+            h4 {
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 32px;
+                color: $maincolor;
+            }
+
+            input,
+            select,
+            textarea {
+                width: 100%;
+                height: 48px;
+                font-size: 16px;
+                line-height: 32px;
+                color: $desccolor;
+                outline: 0;
+                border: 1px solid $customerbottom;
+                border-radius: 6px;
+                padding: 9px 16px;
+                margin: 8px 0;
+            }
+
+            textarea {
+                height: 96px;
+                resize: none;
+                font-family: $fontFamily;
+            }
+
+            .contact-btn {
+                display: flex;
+                justify-content: end;
+                margin-top: 24px;
+            }
+        }
+    }
+    .contact-map{
+        height: 720px;
+    }
+}
+
+#contact-info {
+    padding: 80px 0;
+    .contact-info-item {
+        display: flex;
+        justify-content: center;
+        @media (max-width:992px) {
+            display: block;
+        }
+        .contact-item {
+
+            padding: 34px 20px;
+            border: 1px solid $customerbottom;
+            .contact-icon-head {
+                display: flex;
+
+                .contact-icon {
+                    width: 64px;
+                    height: 64px;
+                    background-color: $TextLightAccent;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    margin: 0 24px 26px 0;
+                }
+
+                h5 {
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: $ln-height-sm;
+                    letter-spacing: 3px;
+                    text-transform: uppercase;
+                    color: $TextLightAccent;
+                }
+            }
+
+            p {
+                font-size: 20px;
+                line-height: 32px;
+                color: $maincolor;
+            }
+        }
+    }
+}

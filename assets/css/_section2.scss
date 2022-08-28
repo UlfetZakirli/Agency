@@ -25,7 +25,7 @@
             h3 {
                 font-style: normal;
                 font-weight: 900;
-                font-size: 38px;
+                font-size: 40px;
                 line-height: 48px;
                 color: #391400;
                 width: 448px;
@@ -91,12 +91,9 @@
         margin-bottom: 105px;
         border: .5px solid #F3D1BF;
         background: #F3D1BF;
-
     }
 
     .video-text {
-        display: flex;
-
         .video {
             img {
                 height: 310px;
@@ -138,86 +135,8 @@
                 font-weight: 400;
                 font-size: 14px;
                 line-height: 25px;
-                width: 400px;
                 color: rgba(57, 20, 0, 0.64);
             }
         }
     }
 }
-
-
-
-
-@media only screen and(max-width:992px) {
-    .container {
-       margin-left: 10px !important;
-       margin-right: 10px !important; 
-        .content {
-            display: block !important;
-            .description{
-                h3{
-                    width: 329px !important;
-                    margin-bottom: 60px;
-                }
-                p{
-                    width:280px;
-                    margin-bottom: 28px;
-                }
-                span{
-                    display: inline-block;
-                    margin-bottom: 35px !important;
-
-                }
-            }
-            .services{
-                .service{
-
-                    width: 300px !important;
-                    h4{
-                        display: block !important;
-                    }
-                }
-            }
-        }
-
-        .title {
-            h5 {
-                width: 100%;
-            }
-        }
-
-        .video-text {
-            display: block !important;
-            .video{
-                img{
-                    width: 320px;
-                    height: 212px;
-                }
-            }
-
-            .text {
-                margin: 0 !important;
-                h5{
-                    width: 329px;
-                    margin-top: 20px;
-
-                }
-                h3{
-
-                    width: 329px  !important;
-                }
-                p{
-                    width: 329px;
-                    margin-top: 40px;
-
-                }
-            }
-        }
-        hr{
-            width: 329px;
-        }
-    }
-
-}
-
-

@@ -1,0 +1,128 @@
+.customers-item {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 72px 0;
+    border-bottom: 1px solid $customerbottom;
+
+    .customer {
+        margin: 12px 0;
+    }
+}
+
+#agancy-experience {
+    .experience-iem {
+        display: flex;
+        align-items: center;
+        font-family: $fontFamily;
+        @include padding-t-r-b-l(100px, 0, 120px, 0);
+
+        .experiance-img {
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .experiance-desc {
+            @include padding-t-r-b-l(0, 0, 0, 120px);
+
+            .section-first-p {
+                font-weight: 400;
+                font-size: 20px;
+                line-height: $ln-height-sm;
+                color: $maincolor;
+            }
+
+            .section-second-p {
+                font-size: 16px;
+                line-height: $ln-height-sm;
+                color: $desccolor;
+                padding-bottom: 18px;
+                padding-top: 34px;
+            }
+        }
+    }
+
+    .experience-info {
+        display: flex;
+        font-family: $fontFamily;
+        color: $maincolor;
+        @include padding-t-r-b-l(40px, 0, 40px, 0);
+
+        .experience-item {
+            padding: 45px;
+            border: 1px solid $customerbottom;
+
+            h3 {
+                font-weight: 800;
+                font-size: 40px;
+                line-height: 48px;
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 32px;
+            }
+        }
+
+        .border-top-bottom-left-radius {
+            border-radius: 6px 0px 0px 6px;
+        }
+
+        .border-top-bottom-right-radius {
+            border-radius: 0px 6px 6px 0px;
+        }
+
+    }
+}
+
+@media (min-width: 576px) and (max-width:992px) {
+    .customers-item {
+        grid-template-columns: auto auto auto;
+    }
+    #agancy-experience {
+        .experience-iem {
+            display: block;
+            .experiance-desc {
+                padding: 0;
+                .section-second-p {
+                    padding-top: 18px;
+                }
+            }
+        }
+        .experience-info {
+            display: block;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .customers-item {
+        grid-template-columns: auto auto;
+        position: relative;
+
+        .customer-center {
+            position: absolute;
+            right: 28%;
+            bottom: 9%;
+        }
+    }
+    #agancy-experience {
+        .experience-iem {
+            display: block;
+            padding: 100px 0 80px 0;
+            .experiance-desc {
+                    padding: 0;
+                .section-second-p {
+                    padding-top: 18px;
+                }
+            }
+        }
+        .experience-info {
+            display: block;
+        }
+    }
+}

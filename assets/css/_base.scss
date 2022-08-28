@@ -1,14 +1,18 @@
-$darkBackground: #28293E;
-$white: #ffffff;
-$button-border: rgba(255, 255, 255, 0.295743);
-$button-hover: #B550F8;
+$fontFamily: 'Epilogue';
+$whitecolor: #FFFFFF;
+$customerbottom: #F3D1BF;
 $TextLightAccent: #EF6D58;
+$maincolor: #391400;
+$desccolor: rgba(57, 20, 0, 0.64);
+$darkBackground: #28293E;
+$teamborder: #3A3C56;
 $TextLightGray: rgba(255, 255, 255, 0.64);
-$yellow: #F7CC47;
-$fontFamily:'Epilogue';
-$textDark: #391400;
-$textDarkGray: rgba(#391400, 0.64);
-$borderColor: #F3D1BF;
+$borderlight: rgba(255, 255, 255, 0.295743);
+$control-btn: #4E4F6E;
+
+$ln-height-sm: 32px;
+$ln-height-lg: 64px;
+
 
 //local library
 .col-lg-1 {
@@ -105,11 +109,30 @@ $borderColor: #F3D1BF;
   }
 }
 
+
+@media (max-width:992px) {
+  .col-sm-12{
+      width: 100% !important;
+  }
+}
+
 .container,
 .container-fluid {
-  width: 81.9%;
+  width: 83.9%;
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
+}
+
+
+
+@mixin padding-t-r-b-l($top, $right, $bottom, $left) {
+  padding: $top $right $bottom $left;
+}
+
+@mixin btn-mix($width, $heigth, $radius) {
+  width: $width;
+  height: $heigth;
+  border-radius: $radius;
 }
