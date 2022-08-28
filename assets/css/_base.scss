@@ -9,6 +9,7 @@ $fontFamily:'Epilogue';
 $textDark: #391400;
 $textDarkGray: rgba(#391400, 0.64);
 $borderColor: #F3D1BF;
+$maincolor: #391400;
 
 //local library
 .col-lg-1 {
@@ -112,4 +113,142 @@ $borderColor: #F3D1BF;
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
+}
+
+$fontFamily: 'Epilogue';
+$whitecolor: #FFFFFF;
+$customerbottom: #F3D1BF;
+$TextLightAccent: #EF6D58;
+$maincolor: #391400;
+$desccolor: rgba(57, 20, 0, 0.64);
+$darkBackground: #28293E;
+$teamborder: #3A3C56;
+$TextLightGray: rgba(255, 255, 255, 0.64);
+$control-btn: #4E4F6E;
+
+$ln-height-sm: 32px;
+$ln-height-lg: 64px;
+
+
+//local library
+.col-lg-1 {
+  flex: 0 0 auto;
+  width: 8.33333333%;
+}
+
+.col-lg-2 {
+  flex: 0 0 auto;
+  width: 16.66666667%;
+}
+
+.col-lg-3 {
+  flex: 0 0 auto;
+  width: 25%;
+}
+
+.col-lg-4 {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+}
+
+.col-lg-5 {
+  flex: 0 0 auto;
+  width: 41.66666667%;
+}
+
+.col-lg-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.col-lg-7 {
+  flex: 0 0 auto;
+  width: 58.33333333%;
+}
+
+.col-lg-8 {
+  flex: 0 0 auto;
+  width: 66.66666667%;
+}
+
+.col-lg-9 {
+  flex: 0 0 auto;
+  width: 75%;
+}
+
+.col-lg-10 {
+  flex: 0 0 auto;
+  width: 83.33333333%;
+}
+
+.col-lg-11 {
+  flex: 0 0 auto;
+  width: 91.66666667%;
+}
+
+.col-lg-12 {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+
+@media (max-width:992px) {
+  .col-sm-12{
+      width: 100% !important;
+  }
+}
+
+.container,
+.container-fluid {
+  width: 83.9%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+@mixin padding-t-r-b-l($top, $right, $bottom, $left) {
+  padding: $top $right $bottom $left;
+}
+
+@mixin btn-mix($width, $heigth, $radius) {
+  width: $width;
+  height: $heigth;
+  border-radius: $radius;
 }
