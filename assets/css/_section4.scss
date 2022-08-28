@@ -1,0 +1,255 @@
+@import '_base';
+
+.section4 {
+
+    .serveces2 {
+        font-family: $fontFamily;
+
+        img {
+            height: 500px;
+        }
+
+        .text {
+            margin-left: 96px;
+            margin-top: 50px;
+
+            h5 {
+
+                color: #EF6D58;
+                font-style: normal;
+                font-weight: lighter;
+                font-size: 14px;
+                line-height: 32px;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                margin-bottom: 15px;
+            }
+
+            h3 {
+                font-weight: bolder;
+                font-size: 50px;
+                line-height: 60px;
+                width: 463px;
+                color: #391400;
+                letter-spacing: -1px;
+                margin-bottom: 13px;
+
+            }
+
+            p {
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 25px;
+                width: 400px;
+                color: #391400;
+                height: 80px;
+            }
+
+            .img-text {
+                background: #F7CB47;
+                width: 55px;
+                height: 55px;
+                border-radius: 50%;
+                position: relative;
+
+
+                img {
+                    position: absolute;
+                    left: 17%;
+                    top: 13%;
+                    width: 38px;
+                    height: 48px;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 20px;
+                    color: rgba(57, 20, 0, 0.64);
+                    width: 300px;
+                    margin-left: 70px;
+                    padding-top: 6px;
+                }
+            }
+
+            span {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 32px;
+                color: #391400;
+                margin-left: 4.4rem;
+            }
+
+            button {
+                background: #FFFFFF;
+                box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+                display: flex;
+                padding: 13px 28px;
+                border: none;
+                border-radius: 8px;
+                font-size: 11px;
+                line-height: 14px;
+                text-align: center;
+                text-transform: uppercase;
+                font-weight: 900;
+                color: #391400;
+                margin-top: 30px;
+
+            }
+
+
+        }
+    }
+
+    .servece-below {
+        margin-top: 100px;
+        font-family: $fontFamily;
+
+        h5 {
+
+            color: #EF6D58;
+            font-style: normal;
+            font-weight: lighter;
+            font-size: 14px;
+            line-height: 32px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            font-weight: 900;
+            font-size: 35px;
+            line-height: 40px;
+            color: #391400;
+            width: 300px;
+            height: 96px;
+
+        }
+
+        .boxes {
+            margin-bottom: 100px;
+            margin-top: 20px;
+
+            .box1 {
+                height: 335px;
+                border: 1px solid #F3D1BF;
+                border-radius: 0px 6px 6px 0px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding-left: 40px;
+                padding-top: 40px;
+                position: relative;
+
+                h1 {
+                    font-weight: 900;
+                    font-size: 22px;
+                    line-height: 50px;
+                    color: #391400;
+                    font-style: normal;
+
+
+
+                }
+
+                p {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 28px;
+                    color: rgba(57, 20, 0, 0.64);
+                    width: 260px;
+
+                }
+
+                img {
+                    width: 70px;
+                    height: 70px;
+                    position: absolute;
+                    top: 36px;
+                }
+
+                span {
+                    font-weight: 500;
+                    font-size: 13px;
+                    line-height: 32px;
+                    color: #391400;
+                    position: absolute;
+                    bottom: 40px;
+                }
+            }
+
+        }
+    }
+
+}
+
+@media only screen and(max-width:992px) {
+    .section4 {
+        .container {
+            margin: 0 !important;
+            margin-left: 10px !important;
+
+            .serveces2 {
+                display: block !important;
+
+                .ser-img {
+                    img {
+                        width: 329px;
+                        height: 327px;
+                    }
+                }
+
+                .text {
+                    margin-left: 0 !important;
+
+                    h5 {
+                        width: 78px;
+                    }
+
+                    h3 {
+                        width: 340px;
+                        font-size: 40px;
+                    }
+
+                    p {
+                        width: 300px;
+                    }
+
+                    .img-text {
+                        p {
+                            width: 230px;
+                        }
+                    }
+
+                    span {
+                        display: inline-block;
+                        width: 130px;
+                        margin-top: 20px;
+                    }
+                }
+            }
+
+            .servece-below {
+                h5 {
+                    width: 78px;
+                }
+
+                h3 {
+                    width: 336px;
+                }
+
+                .boxes {
+                    display: block !important;
+
+                    .box1 {
+                        width: 329px;
+                        height: 416px;
+                    }
+                }
+            }
+        }
+    }
+}
