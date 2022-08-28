@@ -116,6 +116,11 @@
   color: #391400;
 }
 
+.btn-light {
+  background-color: #EF6D58;
+  color: #FFFFFF;
+}
+
 .section-heading-maincolor {
   font-family: "Epilogue";
 }
@@ -546,7 +551,75 @@
 }
 
 #pricing {
+  font-family: "Epilogue";
   padding: 100px 0 100px 0;
+}
+#pricing .pricing-item {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+#pricing .pricing-item .pricing-box {
+  padding: 35px;
+  border: 1px solid #F3D1BF;
+}
+#pricing .pricing-item .pricing-box .section-heading-whitecolor .section-heading-span {
+  font-size: 16px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #EF6D58;
+  line-height: 32px;
+}
+#pricing .pricing-item .pricing-box .section-heading-whitecolor .section-heading-h3 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  color: #391400;
+  padding-top: 17px;
+}
+#pricing .pricing-item .pricing-box p {
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+  padding-top: 15px;
+}
+#pricing .pricing-item .pricing-box ul {
+  list-style-type: none;
+  padding-bottom: 36px;
+}
+#pricing .pricing-item .pricing-box ul li {
+  display: flex;
+  align-items: center;
+  padding: 16px 0;
+}
+#pricing .pricing-item .pricing-box ul li img {
+  margin-right: 16px;
+}
+#pricing .pricing-item .actvie-pricing {
+  background-color: #FFFFFF;
+  border-radius: 6px 6px 0px 0px;
+  position: relative;
+}
+#pricing .pricing-item .actvie-pricing .pricing-popular {
+  position: relative;
+  right: 8px;
+  width: 92px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 32px;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+  border-radius: 19px;
+  background-color: #EF6D58;
+}
+#pricing .pricing-item .border-top-bottom-left-radius {
+  border-radius: 6px 0px 0px 6px;
+}
+#pricing .pricing-item .border-top-bottom-right-radius {
+  border-radius: 0px 6px 6px 0px;
 }
 
 * {

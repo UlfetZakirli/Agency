@@ -1,16 +1,16 @@
-$fontFamily:'Epilogue';
-$whitecolor:#FFFFFF;
+$fontFamily: 'Epilogue';
+$whitecolor: #FFFFFF;
 $customerbottom: #F3D1BF;
 $TextLightAccent: #EF6D58;
 $maincolor: #391400;
 $desccolor: rgba(57, 20, 0, 0.64);
 $darkBackground: #28293E;
-$teamborder:#3A3C56;
+$teamborder: #3A3C56;
 $TextLightGray: rgba(255, 255, 255, 0.64);
-$control-btn:#4E4F6E;
+$control-btn: #4E4F6E;
 
-$ln-height-sm:32px;
-$ln-height-lg:64px;
+$ln-height-sm: 32px;
+$ln-height-lg: 64px;
 
 
 //local library
@@ -119,12 +119,12 @@ $ln-height-lg:64px;
 
 
 
-@mixin padding-t-r-b-l($top,$right,$bottom,$left) {
+@mixin padding-t-r-b-l($top, $right, $bottom, $left) {
   padding: $top $right $bottom $left;
 }
 
 @mixin btn-mix($width, $heigth, $radius) {
-width: $width;
-height: $heigth;
-border-radius: $radius;
+  width: $width;
+  height: $heigth;
+  border-radius: $radius;
 }
