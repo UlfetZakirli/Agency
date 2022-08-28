@@ -1,0 +1,56 @@
+#contact-form {
+    height: 720px;
+    padding: 128px 0;
+    background-image: url(../svg/map.svg);
+    font-family: $fontFamily;
+
+    .contact-map {
+        display: flex;
+        position: relative;
+
+        .from-contact {
+            padding: 48px;
+            background-color: $whitecolor;
+            border-radius: 6px;
+
+            h4 {
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 32px;
+                color: $maincolor;
+            }
+
+            input,
+            select,
+            textarea {
+                width: 100%;
+                height: 48px;
+                font-size: 16px;
+                line-height: 32px;
+                color: $desccolor;
+                outline: 0;
+                border: 1px solid $customerbottom;
+                border-radius: 6px;
+                padding: 9px 16px;
+                margin: 8px 0;
+            }
+
+            textarea {
+                height: 96px;
+                resize: none;
+                font-family: $fontFamily;
+            }
+            .contact-btn{
+                display: flex;
+                justify-content: end;
+                margin-top:24px ;
+            }
+        }
+
+        .location-pin{
+            position: absolute;
+            bottom: 160px;
+            right: 200px;
+        }
+    }
+}

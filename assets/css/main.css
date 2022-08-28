@@ -624,6 +624,57 @@
   border-radius: 0px 6px 6px 0px;
 }
 
+#contact-form {
+  height: 720px;
+  padding: 128px 0;
+  background-image: url(../svg/map.svg);
+  font-family: "Epilogue";
+}
+#contact-form .contact-map {
+  display: flex;
+  position: relative;
+}
+#contact-form .contact-map .from-contact {
+  padding: 48px;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+}
+#contact-form .contact-map .from-contact h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #391400;
+}
+#contact-form .contact-map .from-contact input,
+#contact-form .contact-map .from-contact select,
+#contact-form .contact-map .from-contact textarea {
+  width: 100%;
+  height: 48px;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+  outline: 0;
+  border: 1px solid #F3D1BF;
+  border-radius: 6px;
+  padding: 9px 16px;
+  margin: 8px 0;
+}
+#contact-form .contact-map .from-contact textarea {
+  height: 96px;
+  resize: none;
+  font-family: "Epilogue";
+}
+#contact-form .contact-map .from-contact .contact-btn {
+  display: flex;
+  justify-content: end;
+  margin-top: 24px;
+}
+#contact-form .contact-map .location-pin {
+  position: absolute;
+  bottom: 160px;
+  right: 200px;
+}
+
 * {
   padding: 0;
   margin: 0;
