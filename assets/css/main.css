@@ -628,6 +628,8 @@
   height: 720px;
   padding: 128px 0;
   background-image: url(../svg/map.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: "Epilogue";
 }
 #contact-form .contact-map {
@@ -675,6 +677,44 @@
   right: 200px;
 }
 
+#contact-info {
+  padding: 80px 0;
+}
+#contact-info .contact-info-item {
+  display: flex;
+  justify-content: center;
+}
+#contact-info .contact-info-item .contact-item {
+  padding: 34px;
+  border: 1px solid #F3D1BF;
+}
+#contact-info .contact-info-item .contact-item .contact-icon-head {
+  display: flex;
+}
+#contact-info .contact-info-item .contact-item .contact-icon-head .contact-icon {
+  width: 64px;
+  height: 64px;
+  background-color: #EF6D58;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 0 24px 26px 0;
+}
+#contact-info .contact-info-item .contact-item .contact-icon-head h5 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #EF6D58;
+}
+#contact-info .contact-info-item .contact-item p {
+  font-size: 20px;
+  line-height: 32px;
+  color: #391400;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -683,4 +723,5 @@
 
 body {
   background: #fdf0e9;
+  font-family: "Epilogue";
 }/*# sourceMappingURL=main.css.map */
