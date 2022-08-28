@@ -109,7 +109,7 @@ $ln-height-lg: 64px;
 }
 
 
-@media (min-width: 576px) and (max-width:992px) {
+@media (max-width:992px) {
   .col-sm-12{
       width: 100% !important;
   }
@@ -117,7 +117,7 @@ $ln-height-lg: 64px;
 
 .container,
 .container-fluid {
-  width: 80.9%;
+  width: 83.9%;
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;

@@ -83,9 +83,6 @@
     .customers-item {
         grid-template-columns: auto auto auto;
     }
-    .col-sm-12{
-        width: 100% !important;
-    }
     #agancy-experience {
         .experience-iem {
             display: block;
@@ -103,9 +100,6 @@
 }
 
 @media (max-width: 576px) {
-    .col-sm-12{
-        width: 100% !important;
-    }
     .customers-item {
         grid-template-columns: auto auto;
         position: relative;

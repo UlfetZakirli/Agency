@@ -87,14 +87,14 @@
     max-width: 1320px;
   }
 }
-@media (min-width: 576px) and (max-width: 992px) {
+@media (max-width: 992px) {
   .col-sm-12 {
     width: 100% !important;
   }
 }
 .container,
 .container-fluid {
-  width: 80.9%;
+  width: 83.9%;
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
@@ -270,9 +270,6 @@
   .customers-item {
     grid-template-columns: auto auto auto;
   }
-  .col-sm-12 {
-    width: 100% !important;
-  }
   #agancy-experience .experience-iem {
     display: block;
   }
@@ -287,9 +284,6 @@
   }
 }
 @media (max-width: 576px) {
-  .col-sm-12 {
-    width: 100% !important;
-  }
   .customers-item {
     grid-template-columns: auto auto;
     position: relative;
@@ -402,14 +396,14 @@
     max-width: 1320px;
   }
 }
-@media (min-width: 576px) and (max-width: 992px) {
+@media (max-width: 992px) {
   .col-sm-12 {
     width: 100% !important;
   }
 }
 .container,
 .container-fluid {
-  width: 80.9%;
+  width: 83.9%;
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
@@ -835,7 +829,7 @@
   }
 }
 #contact-info .contact-info-item .contact-item {
-  padding: 34px;
+  padding: 34px 20px;
   border: 1px solid #F3D1BF;
 }
 #contact-info .contact-info-item .contact-item .contact-icon-head {
@@ -874,8 +868,24 @@
   display: flex;
   align-items: end;
 }
+@media (max-width: 992px) {
+  #digital-agency .digital-agency-item {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+@media (max-width: 992px) {
+  #digital-agency .digital-agency-item .dg-order {
+    order: 2;
+  }
+}
 #digital-agency .digital-agency-item .section-heading-whitecolor {
   padding-right: 15%;
+}
+@media (max-width: 992px) {
+  #digital-agency .digital-agency-item .section-heading-whitecolor {
+    padding: 0;
+  }
 }
 #digital-agency .digital-agency-item .section-heading-whitecolor p {
   padding: 28px 0 34px 0;
@@ -886,6 +896,10 @@
 #digital-agency .digital-agency-item .dg-agency-img {
   display: flex;
   justify-content: end;
+}
+#digital-agency .digital-agency-item .dg-agency-img img {
+  width: 100%;
+  height: 100%;
 }
 
 .footer-row {

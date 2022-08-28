@@ -6,9 +6,20 @@
     .digital-agency-item {
         display: flex;
         align-items: end;
-
+        @media (max-width:992px) {
+            display: grid;
+            grid-template-columns: auto;
+        }
+        .dg-order{
+            @media (max-width:992px) {
+                order: 2;
+            }
+        }
         .section-heading-whitecolor {
             padding-right: 15%;
+            @media (max-width:992px) {
+                padding: 0;
+            }
 
             p {
                 padding: 28px 0 34px 0;
@@ -21,6 +32,10 @@
         .dg-agency-img {
             display: flex;
             justify-content: end;
+            img{
+                width: 100%;
+                height: 100%;
+            }
         }
     }
 }
