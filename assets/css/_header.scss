@@ -97,10 +97,7 @@
     border: 1px solid $button-border;
     border-radius: 6px;  
     background-color: transparent;
-    margin-top: 5px;  
-    &:hover {
-        border: 2px solid $button-hover;
-    }     
+    margin-top: 5px;     
 }
 
 .first_section_header_button_text {
@@ -109,9 +106,6 @@
     text-transform: uppercase;
     font-weight: 900;
     font-size: 14px;
-    &:hover {
-        border-bottom: 2px solid $button-hover;
-    }
 }
 
 .first_section_body {
@@ -255,7 +249,7 @@
     flex: 1;
     align-items: flex-start;
     flex-direction: column;
-    padding-right: 10%;
+    margin:0 10%;
     margin-bottom: 5%;
     background-image: url(./svg/Oval.svg);
     background-repeat: no-repeat;
@@ -272,108 +266,94 @@
 }
 
 .top_right_row_purple_cirle {
-    width: 246px;
-    height: 246px;
+    width: 15vw;
+    height: 15vw;
+    display: flex;
+    align-items: flex-end;
     background-color: $button-hover;
     border-radius: 50%;
 }
 
 .top_right_row_orange_cirle {
-    width: 112px;
-    height: 112px;
+    width: 7vw;
+    height: 7vw;
     margin-bottom: 5%;
     background-color: $TextLightAccent;
     border-radius: 50%;
     background-image: url(./svg/threestars.svg);
     background-repeat: no-repeat;
     background-position: center;
-    position: relative;
-    right: 10%;
+    background-size: 45%;
 }
 
 .top_right_row_cloud_shape {
-    width: 112px;
-    height: 82px;
-    position: relative;
-    right: 20%;
+    width: 7vw;
+    height: 5vw;
 }
 
 .first_section_body_second_right_row {
     width: 100%;
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 .second_right_row_purple_square {
-    width: 246px;
-    height: 182px;
+    width: 15vw;
+    height: 8vw;
     background-color: $button-hover;
-    position: relative;
-    bottom: 129px;
+    display: flex;
 }
 
 .laptop_image {
-    width: 245px;
-    height: 255px;
+    width: 15vw;
+    height: 15vw;
     position: relative;
     left: 10.5%;
     bottom: 45%;
 }
 
 .second_right_row_yellow_circle {
-    width: 246px;
-    height: 246px;
+    width: 15vw;
+    height: 15vw;
     border-radius: 50%;
     background-color: $yellow;
-    position: relative;
-    right: 25%;
-}
-
-.first_section_body_third_right_row {
-    width: 100%;
     display: flex;
-    align-items: baseline;
-    justify-content: space-between;
+    align-items: flex-end;
 }
 
 .third_right_row_yellow_square {
-    width: 246px;
-    height: 220px;
+    width: 15vw;
+    height: 8vw;
+    display: flex;
+    align-items: end;
+    justify-content: center;
     background-color: $yellow;
-    position: relative;
-    left: 42.5%;
-    bottom: 115px;
 }
 
 .girl_smile {
-    width: 246px;
-    height: 269px;
-    position: relative;
-    bottom: 45px;
+    width: 15vw;
+    height: 15vw;
 }
 
 .first_section_body_last_right_row {
     width: 100%;
     display: flex;
-    align-items: baseline;
     justify-content: space-between;
 }
 
 .last_right_row_container {
     display: flex;
-    width: 214px;
-    height: 112px;
+    width: 14vw;
+    height: 8vw;
     background-color: $white;
     border-radius: 6px;
     padding-top: 10px;
-    position: relative;
-    bottom: 12vh;
 }
 
 .last_right_row_container_left {
-    width: 45px;
-    height: 45px;
+    width: 25%;
+    height: 40%;
     border-radius: 50%;
     background-color: $TextLightAccent;
     justify-self: center;
@@ -381,12 +361,8 @@
 }
 
 .last_right_row_container_right {
+    width: 10vw;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-}
-
-.curvy_arrow {
-    width: 152px;
-    height: 120px;
 }
