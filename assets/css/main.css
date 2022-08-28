@@ -782,6 +782,28 @@
   margin-left: 8px;
 }
 
+.footer-copyrighter {
+  display: flex;
+  justify-content: space-between;
+  padding: 43px 0;
+}
+.footer-copyrighter .copyrighter-link {
+  text-align: end;
+}
+.footer-copyrighter .copyrighter-link p,
+.footer-copyrighter .copyrighter-link a {
+  font-size: 16px;
+  line-height: 32px;
+}
+.footer-copyrighter .copyrighter-link p {
+  color: rgba(57, 20, 0, 0.64);
+}
+.footer-copyrighter .copyrighter-link a {
+  color: #391400;
+  text-decoration: none;
+  margin-left: 68px;
+}
+
 * {
   padding: 0;
   margin: 0;
