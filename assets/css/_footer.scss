@@ -1,8 +1,17 @@
 .footer-row {
     display: flex;
-    padding: 90px 0;
+    padding: 40px 0;
     border-bottom: 1px solid #F3D1BF;
 
+    @media (max-width:992px) {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        text-align: center;
+    }
+    .padding-fifty{
+        padding-bottom:50px ;
+    }
     .footer-item {
         h4 {
             font-weight: 700;
